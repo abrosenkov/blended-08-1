@@ -1,0 +1,343 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+    color: #22343d;
+    line-height: 1.5;
+}
+
+/* #region reset */
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    padding: 0;
+    border: none;
+}
+
+/* #region common */
+
+.container {
+    max-width: 1110px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.section  {
+    padding: 50px 0;
+}
+
+/* #endregion common*/
+
+/* #region header */
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 22px 0;
+    margin-right: 237px;
+}
+
+.logo-text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93;
+    color: #173a56;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+    padding: 26px 0;
+}
+
+.nav-link:hover, .nav-link:focus {
+    text-shadow: 0 0  1px rgba(34, 52, 61, 1);
+}
+
+.sign-buttons-list {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    margin-left: auto;
+}
+
+.sign-btn {
+    padding: 9px 24px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sign-btn:hover, .sign-btn:focus {
+    opacity: .8;
+}
+
+.sign-in-btn {
+    border: 1px solid #bcd0e5;
+    background-color: transparent;
+    color: #173a56;
+    min-width: 105px;
+}
+
+.sign-up-btn {
+    color: #fff;
+    border: 1px solid transparent;
+    background: #02897a;
+    min-width: 113px;
+}
+
+/* #region header end */
+
+/* #region main section */
+
+.main-section {
+    padding: 25px 0 50px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 40px;
+    max-width: 452px;
+    margin-bottom: 18px;
+}
+
+.hero-descr {
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;gap: 30px;
+}
+
+.hero-btn {
+    text-align: center;
+    min-width: 178px;
+    border-radius: 4px;
+    padding: 15px 41px;
+    background: #02897a;
+    font-weight: 700;
+    color: #fff;
+}
+
+.hero-btn:hover, .hero-btn:focus {
+    opacity: .8;
+}
+
+.hero-video-link {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #02897a;
+    padding: 15px 0;
+}
+
+.hero-video-link:hover, .hero-video-link:focus {
+    opacity: .8;
+}
+
+/* #region main section end */
+
+/* #region product */
+
+.product-section {
+    padding: 50px 0 56px;
+}
+
+.product-title {
+    font-size: 32px;
+    margin: 0 auto 72px;
+    max-width: 539px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 72px;
+}
+
+.product-item {
+    width: calc((100% - 90px) / 4);
+}
+
+.product-item-img {
+    width: 54px;
+    margin-bottom: 18px;
+}
+
+.product-item-title {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 13px;
+}
+
+.product-item-descr {
+    line-height: 1.63;
+}
+
+.product-btn {
+    display: block;
+    font-weight: 700;
+    color: #fff;
+    background: #02897a;
+    border-radius: 4px;
+    padding: 14px 33px;
+    min-width: 175px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 50px;
+}
+
+.product-btn:hover, .product-btn:focus {
+    opacity: .8;
+}
+
+.product-advantages-item {
+    display: flex;
+    align-items: center;
+    gap: 84px;
+    justify-content: space-between;
+}
+
+.advantages-item-title {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.advantages-item-title-style {
+    font-weight: 600;
+        font-size: 16px;
+}
+
+.advantages-item-descr {
+    font-size: 16px;
+    line-height: 1.63;
+    margin-bottom: 30px;
+}
+
+.advantages-item-subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.63;
+    margin-bottom: 12px;
+}
+
+.advantages-item-text {
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+.advantages-item-text-first {
+    margin-bottom: 25px;
+}
+
+/* #region product end */
+
+/* #region clients */
+
+.clients-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 1.78;
+    letter-spacing: 0.01em;
+}
+
+.clients-subtitle {
+    max-width: 537px;
+    margin: 0 auto 40px;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.clients-list {
+    display: flex;
+    gap: 64px;
+}
+
+.clients-user-content {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.clients-list-item {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 27px 25px;
+    width: calc((100% - 128px) / 3);
+}
+
+.clients-item-text {
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
+    margin-bottom: 16px;
+}
+
+.client-card-title {
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: #02897a;
+}
+
+.client-card-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    color: #252b42;
+}
